@@ -406,7 +406,7 @@ a {
 	border: 1px solid #fff;
 	position: relative;
 overflow: hidden;
-box-shadow: rgba(239, 239, 239, 0.2) 0px 8px 24px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .trending-card-img {
