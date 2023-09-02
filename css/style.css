@@ -16,7 +16,7 @@
 
 body {
 	line-height: 1.5;
-	background-color: #efefef;
+	background-color: #fff;
 	overflow-x: hidden;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -406,8 +406,7 @@ a {
 	border: 1px solid #fff;
 	position: relative;
 overflow: hidden;
-box-shadow: 5px 10px #fff;
-
+box-shadow: rgba(239, 239, 239, 0.2) 0px 8px 24px;
 }
 
 .trending-card-img {
