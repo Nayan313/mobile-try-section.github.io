@@ -663,8 +663,9 @@ a {
 	}
 
 	.trending-card {
-		width: 49%;
-		margin: 0.5px;
+		width: 48%;
+		margin: 1%;
+border-radius: 20px;
 	}
 
 	.footer-part1 {
