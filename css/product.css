@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+	background-color: var(--body-color);
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+}
+
+body.hidden-scrolling {
+	overflow-y: hidden;
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+a:hover{
+    color: #193f52;
+}
+:root {
+	--main-color: #e9e9e9;
+	--hover-color: #2764BA;
+	--body-color: #ffffff;
+	--box-color: white;
+	--text-color: #554e8e;
+	--women-background: rgb(70 113 135 / 30%);
+}
+.direction-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    margin: 16vh 2% 1vh 2%;
+    
+}
+.current-page-direction{
+    font-size: 16px;
+    margin-left: 3px;
+}
+.main{
+    width: 100%;
+    margin: 1vh 0 10vh 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+#partCard{
+    position: relative;
+    width: 46%;
+    margin: 0 2%;
+    overflow: hidden;
+}
+.mainPart1{
+    background-color: var(--women-background);
+    height: 77vh;
+}
+.ProductIndexImage{
+    position: absolute;
+  left: 50%;
+  transform: translate( -50%);
+  height: 77vh;
+}
+.ProductNameAndPrice{
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+.ProductName{
+    font-size: 24px;
+}
+.ProductName,.ProductPrice{
+    font-weight: 700;
+}
+.ProductPrice{
+    font-size: 30px;
+}
+.ProductPrice span{
+    font-size: 20px;
+}
+.itemAndButton{
+    width: 100%;
+    display: flex;
+    margin: 3vh 0;
+    justify-content: space-between;
+}
+.ItemQuntity{
+    display: flex;
+    border: 2px solid #e9e9e9;
+}
+.itemBtn,#itemNumber{
+    border: none;
+    outline: none;
+    width: 7vh;
+    height: 9vh;
+    font-size: 4vh;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: transparent;
+}
+.AddToCart{
+    border: none;
+    outline: none;
+    font-size: 3vh;
+    width: 78%;
+    text-transform: uppercase;
+    background-color: #193f52;
+    color: var(--main-color);
+}
+.subPart1{
+    display: flex;
+    width: auto;
+    padding: 10px 0;
+}
+.sublink{
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-right: 3vh;
+}
+.sharepart{
+    display: flex;
+    width: auto;
+    padding: 10px 0;
+    align-items: center;
+}
+.share-sub-part1{
+    margin-right: 3vh;
+}
+.share-title,.share-link{
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 2vh;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: #767676;
+  font-weight: 300;
+}
+#table{
+    font-weight: 700;
+    color: #000;
+}
+
+
+@media(max-width: 991px) {
+	body {
+		overflow-x: hidden;
+	}
+    .direction-section
+    {
+        width: 90%;
+        margin: 11vh 5% 3vh 5%;
+    }
+    .mainPart1{
+        margin-top: 0;
+    }
+    #partCard{
+        width: 96%;
+    }
+    .ProductNameAndPrice{
+        margin-top: 4vh;
+    }
+    .main{
+        margin: 1vh 3%;
+        width: 94%;
+    }
+    .ItemQuntity{
+        width: 35%;
+        font-size: 20px;
+    }
+    .AddToCart{
+        width: 60%;
+    }
+    .itemBtn,#itemNumber,.AddToCart{
+        font-size: 20px;
+        height: 7vh;
+    }
+    .ProductName{
+        font-size: 22px;
+    }
+}
