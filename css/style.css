@@ -405,6 +405,7 @@ a {
 	width: calc(100% / 4);
 	border: 1px solid #000;
 	position: relative;
+overflow: hidden;
 box-shadow: 5px 10px #fff;
 }
 }
