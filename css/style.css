@@ -403,7 +403,7 @@ a {
 .trending-card {
 	height: auto;
 	width: calc(100% / 4);
-	border: 1px solid #fff;
+	border: 1px solid #808080;
 	position: relative;
 overflow: hidden;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
